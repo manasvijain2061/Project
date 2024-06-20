@@ -6,7 +6,7 @@ console.log(process.env.SECRET);
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const Listing = require("../MAJORPROJECT/models/listing.js"); //require model from listing.js file
+const Listing = require("./models/listing.js"); //require model from listing.js file
 const path = require("path"); //for ejs views folder
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate"); //ejsMate
